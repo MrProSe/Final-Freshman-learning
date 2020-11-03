@@ -1,0 +1,83 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int a;
+	for(;;){
+	printf("&&&&***********************************&&&&\n");
+	printf("&&&                                     &&&\n");
+	printf("&                                         &\n");
+	printf("*           》》--主菜单 --《《           *\n");
+	printf("*               0.添加事件                *\n");
+	printf("*               1.删除事件                *\n");
+	printf("*               2.查询事件                *\n");
+	printf("*               3.修改事件                *\n");
+	printf("*               4.显示事件                *\n");
+	printf("*               5.结束操作                *\n");
+	printf("+-----------------------------------------+\n");
+	printf("        》》请输入你要操作的编号《《       \n");
+	scanf("%d",&a);
+	system("cls");
+	switch(a){
+		case 0:
+			{		
+					system("cls");
+					printf("这是添加事件模块\n");
+					system("pause");
+					getchar();
+					system("cls");					 
+					break;
+				
+			}
+			break;
+		case 1:
+			{
+				
+					system("cls");
+					printf("这是删除事件模块\n");
+					system("pause"); 
+					getchar();
+					system("cls");					
+					break;				
+			}
+			break;
+		case 2:
+			{
+				system("cls");
+					printf("这是查询事件模块\n");
+					system("pause");
+					getchar();
+					system("cls");					 
+					break;
+				
+			}
+			break;
+		case 3:
+			{
+					system("cls");
+					printf("这是修改事件模块\n"); 					
+					system("pause");
+					getchar();
+					system("cls");		
+					break;
+			}
+			break;
+		case 4:
+			{
+				system("cls");
+					printf("这是显示事件模块\n");
+					system("pause"); 
+					getchar();
+					system("cls");	
+					break;
+			}
+			break;
+		case 5:
+		{
+			return 0;
+		 } 
+	}
+}
+	return 0;
+	}	
+	
